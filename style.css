@@ -1,45 +1,32 @@
-body
-{
-    margin: 0;
-    padding: 0;
-    background: #ff3772;
-    font-family: sans-serif;
+body{
+    background-image: url("photo/main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-ul
-{
-    position: relative;
-    width: 450px;
-    margin: 100px auto 0;
-    padding: 10px;
-    box-sizing: border-box;
-}
-ul li
-{
-    display: flex;
-    background: rgba(255,255,255,.1);
-    padding: 10px 20px;
-    color: #fff;
-    margin: 5px 0;
-    transition: .5s;
 
+div{
+    height: 100px;
+    width: 800px;
 }
-ul li:nth-child(1)
-{
-background: rgba(255, 255,255,.4)
+
+
+header div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0px 40px;
+    color: red;
+    padding: 0px;
+    list-style: none;
+
+    
 }
-ul li:nth-child(2)
-{
-    background:rgba(255, 255,255,.2)
+
+#photoone {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
 }
-ul li span:nth-child(1)
-{
-    width: 30px
-}
-ul li span:nth-child(2)
-{
-    width: 200px
-}
-ul li span:nth-child(3)
-{
-    width: 100px
-}
+
+
